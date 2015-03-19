@@ -8,11 +8,12 @@ A simple Chrome extension that adds a “Save in Ember” button next to Dribbbl
 
 ## How it works
 
-I've written a [full breakdown](http://casualnotebook.com/lets-breakdown-the-save-in-ember-browser-extension) over on my blog. Simply put, it uses the `emberapp:///import?url={{URL}}` URL scheme.
+I've written a [full breakdown](http://casualnotebook.com/posts/lets-breakdown-the-save-in-ember-browser-extension) over on my blog. Simply put, it uses the `emberapp:///import?url={{URL}}` URL scheme.
 
 ## How to use it
 
 Requirements:
+
 - Obviously, this requires [Ember](http://realmacsoftware.com/). Get a 14 day free trial [here](http://realmacsoftware.com/ember#download).
 - “Always enable browser extensions” must be turned on in Ember's preferences.
 

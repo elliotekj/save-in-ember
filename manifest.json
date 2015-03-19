@@ -1,0 +1,22 @@
+{
+  "name": "Save in Ember",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A simple Chrome extension that adds a `Save in Ember` button next to Dribbble shots.",
+  "homepage_url": "http://casualnotebook.com/lets-make-a-simple-browser-extension-for-chrome",
+  "content_scripts": [{
+    "css": [
+      "inject.css"
+    ],
+    "js": [
+      "inject.js",
+      "jquery.min.js"
+    ],
+    "matches": [
+      "https://dribbble.com/*"
+    ]
+  }],
+  "web_accessible_resources": [
+    "img/*.png"
+  ]
+}
